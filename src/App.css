@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+.form {
+  padding-top: 20px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Berkshire Swash", cursive;
+}
+.ad {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.weather {
+  font-size: 24px;
+  text-align: center;
+  font-family: "Berkshire Swash", cursive;
+}
+.weather-next {
+  font-size: large;
+  text-align: left;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.degrees {
+  font-family: cursive;
+}
+.days {
+  color: blue;
+  font-size: large;
+}
+.table {
+  text-align: center;
+  background-image: linear-gradient(
+    to top,
+    rgb(242, 186, 57),
+    rgb(244, 239, 225)
+  );
+}
+.cont-small {
+  text-align: center;
+  background-image: linear-gradient(
+    to top,
+    rgb(242, 186, 57),
+    rgb(244, 239, 225)
+  );
+  border-style: solid;
+  border-color: brown;
+}
+.form-group {
+  width: 60%;
+}
+.footer {
+  border: solid;
+  border-color: white;
+}
+.currant {
+  text-align: left;
+}
