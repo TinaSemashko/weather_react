@@ -1,15 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Search from "./Search.js";
-import logo from "./logo.svg";
+import Main from "./Main.js";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="container cont-small pt-2 pb-5 ">
-        <h1>Weather search engine</h1>
-        <Search />
+      <div className="container">
+        <Main defaultCity="Paris" />
       </div>
     </div>
   );

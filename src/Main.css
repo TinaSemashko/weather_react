@@ -1,0 +1,193 @@
+.weather {
+  text-align: center;
+  background-image: linear-gradient(to top, darkblue, rgb(5, 133, 219));
+  color: rgb(136, 190, 245);
+  border-style: solid;
+  border-color: black;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_sun {
+  text-align: center;
+  background-image: url("../src/images/sun.png");
+  background-size: 80%;
+  border-style: solid;
+  border-color: goldenrod;
+
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_clear_night {
+  text-align: center;
+  background-image: url("../src/images/clear_night.png");
+  background-size: 100%;
+  border-style: solid;
+  border-color: darkblue;
+  color: silver;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_few_clouds_day {
+  text-align: center;
+  background-image: url("../src/images/few_clouds_day.png");
+  background-size: 125%;
+  border-style: solid;
+  border-color: darkblue;
+  color: darkblue;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_few_clouds_night {
+  text-align: center;
+  background-image: url("../src/images/few_clouds_night.jpg");
+  background-size: 150%;
+  border-style: solid;
+  border-color: darkblue;
+  color: azure;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_scattered_clouds_day {
+  text-align: center;
+  background-image: url("../src/images/scattered_clouds_day.jpg");
+  background-size: 100%;
+  border-style: solid;
+  border-color: darkblue;
+  color: black;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_scattered_clouds_night {
+  text-align: center;
+  background-image: url("../src/images/scattered_clouds_night.png");
+  background-size: 150%;
+  border-style: solid;
+  border-color: darkblue;
+  color: antiquewhite;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_broken_clouds_day {
+  text-align: center;
+  background-image: url("../src/images/broken_clouds_day.png");
+  background-size: 100%;
+  border-style: solid;
+  border-color: darkgrey;
+  color: dimgrey;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_broken_clouds_night {
+  text-align: center;
+  background-image: url("../src/images/broken_clouds_night.png");
+  background-size: 150%;
+  border-style: solid;
+  border-color: darkblue;
+  color: antiquewhite;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_shower_rain_day {
+  text-align: center;
+  background-image: url("../src/images/shower_rain_day.jpg");
+  background-size: 100%;
+  border-style: solid;
+  border-color: darkgrey;
+  color: rgb(44, 44, 44);
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_shower_rain_night {
+  text-align: center;
+  background-image: url("../src/images/shower_rain_night.jpg");
+  background-size: 100%;
+  border-style: solid;
+  border-color: darkgrey;
+  color: lightgray;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_rain_day {
+  text-align: center;
+  background-image: url("../src/images/rain.png");
+  border-style: solid;
+  border-color: darkblue;
+  color: aqua;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_rain_night {
+  text-align: center;
+  background-image: url("../src/images/rain_night.png");
+  background-size: 100%;
+  border-style: solid;
+  border-color: darkgrey;
+  color: lightgray;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_thunderstorm_day {
+  text-align: center;
+  background-image: url("../src/images/thunderstorm_day.png");
+  background-size: 100%;
+  border-style: solid;
+  border-color: darkblue;
+  color: darkblue;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_thunderstorm_night {
+  text-align: center;
+  background-image: url("../src/images/thunderstorm_night.png");
+  background-size: 120%;
+  border-style: solid;
+  border-color: darkgrey;
+  color: white;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_snow_day {
+  text-align: center;
+  background-image: url("../src/images/snow_day.png");
+  background-size: 100%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_snow_night {
+  text-align: center;
+  background-image: url("../src/images/snow_night.png");
+  background-size: 100%;
+  border-style: solid;
+  border-color: white;
+  color: mediumpurple;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_mist_day {
+  text-align: center;
+  background-image: url("../src/images/mist_day.jpg");
+  background-size: 150%;
+  border-style: solid;
+  border-color: white;
+  color: rgb(30, 49, 103);
+  font-family: "Berkshire Swash", cursive;
+}
+
+.weather_mist_night {
+  text-align: center;
+  background-image: url("../src/images/mist_night.jpg");
+  background-size: 200%;
+  border-style: solid;
+  border-color: white;
+  color: dimgray;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.form {
+  padding: 10px 10px 10px;
+
+  text-align: left;
+}

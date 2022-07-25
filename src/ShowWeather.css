@@ -1,0 +1,15 @@
+.temp {
+  font-size: 60px;
+  font-family: "Averia Serif Libre", cursive;
+}
+.table {
+  text-align: left;
+}
+.weather-next {
+  font-size: large;
+  text-align: left;
+  font-family: "Berkshire Swash", cursive;
+}
+h1 {
+  font-size: 66px;
+}

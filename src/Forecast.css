@@ -1,0 +1,10 @@
+.row {
+  line-height: 2.5;
+}
+
+.col-tab {
+  background-image: url("../src/images/forecast.png");
+  background-size: 100%;
+  color: black;
+  line-height: 1;
+}
