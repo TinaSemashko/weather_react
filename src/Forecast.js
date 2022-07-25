@@ -39,7 +39,7 @@ export default function Forecast(props) {
           <b>Wed</b>
         </div>
         <div>
-          <GetIcon codeIcon="09d" size={50} />
+          <GetIcon codeIcon="13d" size={50} />
         </div>
         <div>
           <span>
@@ -53,7 +53,7 @@ export default function Forecast(props) {
           <b>Thu</b>
         </div>
         <div>
-          <GetIcon codeIcon="09d" size={50} />
+          <GetIcon codeIcon="01d" size={50} />
         </div>
         <div>
           <span>
