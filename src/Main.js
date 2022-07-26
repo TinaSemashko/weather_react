@@ -13,6 +13,7 @@ export default function Main(props) {
   function showWeather(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       description: response.data.weather[0].description,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
@@ -112,7 +113,7 @@ export default function Main(props) {
         </div>
 
         <ShowWeather data={weatherData} />
-        <Forecast codeIcon={weatherData.icon} />
+        <Forecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
