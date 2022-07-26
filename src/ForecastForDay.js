@@ -1,6 +1,8 @@
 import React from "react";
 import GetIcon from "./GetIcon";
 
+import "./Forecast.css";
+
 export default function ForecastForDay(props) {
   function day() {
     let date = new Date(props.data.dt * 1000);
@@ -26,10 +28,10 @@ export default function ForecastForDay(props) {
         <div>
           <GetIcon codeIcon={props.data.weather[0].icon} size={50} />
         </div>
-        <span>
+        <span className="temp-max">
           <strong>{maxTemperature()} </strong>
         </span>
-        <span>{minTemperature()}</span>
+        <span className="temp-min">{minTemperature()}</span>
       </div>
     </div>
   );

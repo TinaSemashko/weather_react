@@ -8,3 +8,14 @@
   color: black;
   line-height: 1;
 }
+
+.days {
+  font-family: "Averia Serif Libre", cursive;
+}
+.temp-max {
+  color: brown;
+}
+
+.temp-min {
+  color: blue;
+}
