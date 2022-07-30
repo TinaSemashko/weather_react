@@ -10,9 +10,9 @@
 .weather_sun {
   text-align: center;
   background-image: url("../src/images/sun.png");
-  background-size: 80%;
+  background-size: 110%;
   border-style: solid;
-  border-color: goldenrod;
+  border-color: blue;
 
   font-family: "Berkshire Swash", cursive;
 }
