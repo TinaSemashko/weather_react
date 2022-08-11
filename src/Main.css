@@ -19,8 +19,8 @@
 
 .weather_clear_night {
   text-align: center;
-  background-image: url("../src/images/clear_night.png");
-  background-size: 100%;
+  background-image: url("../src/images/clear_night.jpg");
+  background-size: 110%;
   border-style: solid;
   border-color: darkblue;
   color: silver;
