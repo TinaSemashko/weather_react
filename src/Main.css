@@ -10,7 +10,8 @@
 .weather_sun {
   text-align: center;
   background-image: url("../src/images/sun.png");
-  background-size: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: blue;
 
@@ -20,7 +21,8 @@
 .weather_clear_night {
   text-align: center;
   background-image: url("../src/images/clear_night.jpg");
-  background-size: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkblue;
   color: silver;
@@ -30,7 +32,8 @@
 .weather_few_clouds_day {
   text-align: center;
   background-image: url("../src/images/few_clouds_day.png");
-  background-size: 125%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkblue;
   color: darkblue;
@@ -40,7 +43,8 @@
 .weather_few_clouds_night {
   text-align: center;
   background-image: url("../src/images/few_clouds_night.jpg");
-  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkblue;
   color: azure;
@@ -50,7 +54,8 @@
 .weather_scattered_clouds_day {
   text-align: center;
   background-image: url("../src/images/scattered_clouds_day.jpg");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkblue;
   color: black;
@@ -60,7 +65,8 @@
 .weather_scattered_clouds_night {
   text-align: center;
   background-image: url("../src/images/scattered_clouds_night.png");
-  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkblue;
   color: antiquewhite;
@@ -70,7 +76,8 @@
 .weather_broken_clouds_day {
   text-align: center;
   background-image: url("../src/images/broken_clouds_day.png");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkgrey;
   color: dimgrey;
@@ -80,7 +87,8 @@
 .weather_broken_clouds_night {
   text-align: center;
   background-image: url("../src/images/broken_clouds_night.png");
-  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkblue;
   color: antiquewhite;
@@ -90,7 +98,8 @@
 .weather_shower_rain_day {
   text-align: center;
   background-image: url("../src/images/shower_rain_day.jpg");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkgrey;
   color: rgb(44, 44, 44);
@@ -100,7 +109,8 @@
 .weather_shower_rain_night {
   text-align: center;
   background-image: url("../src/images/shower_rain_night.jpg");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkgrey;
   color: lightgray;
@@ -110,6 +120,8 @@
 .weather_rain_day {
   text-align: center;
   background-image: url("../src/images/rain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkblue;
   color: aqua;
@@ -119,7 +131,8 @@
 .weather_rain_night {
   text-align: center;
   background-image: url("../src/images/rain_night.png");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkgrey;
   color: lightgray;
@@ -129,7 +142,9 @@
 .weather_thunderstorm_day {
   text-align: center;
   background-image: url("../src/images/thunderstorm_day.png");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   border-style: solid;
   border-color: darkblue;
   color: darkblue;
@@ -139,7 +154,8 @@
 .weather_thunderstorm_night {
   text-align: center;
   background-image: url("../src/images/thunderstorm_night.png");
-  background-size: 120%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: darkgrey;
   color: white;
@@ -149,7 +165,8 @@
 .weather_snow_day {
   text-align: center;
   background-image: url("../src/images/snow_day.png");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: white;
   color: white;
@@ -159,7 +176,8 @@
 .weather_snow_night {
   text-align: center;
   background-image: url("../src/images/snow_night.png");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: white;
   color: mediumpurple;
@@ -169,7 +187,8 @@
 .weather_mist_day {
   text-align: center;
   background-image: url("../src/images/mist_day.jpg");
-  background-size: 150%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: white;
   color: rgb(30, 49, 103);
@@ -179,7 +198,8 @@
 .weather_mist_night {
   text-align: center;
   background-image: url("../src/images/mist_night.jpg");
-  background-size: 200%;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-style: solid;
   border-color: white;
   color: dimgray;

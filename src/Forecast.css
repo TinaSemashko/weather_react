@@ -4,9 +4,13 @@
 
 .col-tab {
   background-image: url("../src/images/forecast.png");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: black;
   line-height: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .days {

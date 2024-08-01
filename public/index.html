@@ -5,10 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="description" content="Weather API" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -25,10 +22,20 @@
     />
 
     <title>React Weather App</title>
+    <style>
+      @media (max-width: 767.98px) {
+        .container-fluid {
+          max-width: 100%;
+          padding-left: 0;
+          padding-right: 0;
+          height: 100vh;
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div class="container">
+    <div class="container-fluid">
       <div id="root"></div>
     </div>
   </body>

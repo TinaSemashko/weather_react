@@ -8,7 +8,7 @@ import "./Main.css";
 export default function Main(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
-  const apiKey = "1e0dcb1b35c33c85c8f53ba10ee78100";
+  const apiKey = process.env.REACT_APP_API_KEY;
 
   function showWeather(response) {
     setWeatherData({

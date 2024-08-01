@@ -16,6 +16,7 @@ function App() {
                 href="https://startling-beijinho-552315.netlify.app/about.html"
                 target="_blank"
                 title="about me"
+                rel="noreferrer"
               >
                 Tina Semashko
               </a>
@@ -24,6 +25,7 @@ function App() {
                 href="https://github.com/TinaSemashko/weather_react"
                 target="_blank"
                 title="github link that project"
+                rel="noreferrer"
               >
                 open-sourced on GitHub{" "}
               </a>
